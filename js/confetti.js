@@ -48,7 +48,6 @@ function checkIfUserWon() {
 }
 
 function playConfetti() {
-  document.getElementById('winner-bingo').classList.toggle('bingo-winner');
   document.getElementById('winner-bingo').classList.toggle('display-class');
   $(document).ready(function () {
     var frameRate = 30;
