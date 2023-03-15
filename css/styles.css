@@ -1,0 +1,245 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Starts here for our own css, since above are resets*/
+
+body {
+  background-image: url('../capgemini-image.jpg');
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.heading-title {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+
+#randomize-button {
+  width: 20%;
+  margin: 0 auto;
+  border-radius: 5px;
+  padding: 0.75rem;
+  margin-bottom: 0.75rem;
+  background-color: blue;
+  color: lightcoral;
+  font-weight: 800;
+  font-size: 1em;
+}
+
+#randomize-button:hover {
+  background-color: yellow;
+  color: black;
+  cursor: pointer;
+}
+
+.card {
+  width: 50%;
+  height: 80%;
+  border: 1px black solid;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+.header-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 50px;
+  align-items: center;
+  align-content: center;
+  background-color: lightblue;
+  padding: 1rem 0;
+  border: 1px black solid;
+}
+
+.header-row:hover {
+  background-color: green;
+  cursor: pointer;
+}
+
+.header-letter {
+  width: 100%;
+}
+
+.header-letter p {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  background-color: lightgray;
+  /* content: 'Hello'; */
+}
+
+.cell {
+  width: 100%;
+  height: 150px;
+  border: 1px black solid;
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  font-size: 1.5em;
+  text-align: center;
+  justify-content: center;
+}
+
+.cell:hover {
+  background-color: cadetblue;
+  color: white;
+  cursor: pointer;
+}
+
+.cell p {
+  margin: auto auto;
+  font-size: 1.5em;
+  font-weight: bolder;
+}
+
+.bean {
+  height: 150px;
+  width: 100%;
+  background-color: #d0d94d;
+  border-radius: 50%;
+}
