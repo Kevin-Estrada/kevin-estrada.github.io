@@ -54,10 +54,6 @@ function randomizeCard() {
   let alreadyChosen = [];
   console.log(copyCard);
   while (cellIndex != 0) {
-    if (cellIndex == 13) {
-      cellIndex -= 1;
-      continue;
-    }
     let randNum = getRandomInt();
     if (alreadyChosen.includes(randNum)) {
       continue;
